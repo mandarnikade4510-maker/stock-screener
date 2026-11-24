@@ -1,0 +1,37 @@
+{
+  "name": "stock-screener",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "bench": "tsx src/lib/bench.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "8.20.5",
+    "@tanstack/react-virtual": "3.10.8",
+    "lightweight-charts": "4.2.0",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zustand": "4.5.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "14.3.1",
+    "@types/node": "20.16.11",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "@vitest/coverage-v8": "1.6.0",
+    "eslint": "8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "jsdom": "24.1.1",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3",
+    "vitest": "1.6.0"
+  }
+}
